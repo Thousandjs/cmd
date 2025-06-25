@@ -10,8 +10,8 @@
         // --- Código que dispara o download ao executar ---
 
         // Exemplo 1: Download de um arquivo PNG
-        const urlParaBaixar = localstorage.getItem("plugin"); // URL de uma imagem de exemplo
-        const nomeParaSalvar = localstorage.getItem("pluginname");
+        const urlParaBaixar = localStorage.getItem("plugin"); // URL de uma imagem de exemplo
+        const nomeParaSalvar = localStorage.getItem("pluginname");
 
         // Chamada da função. Isso a executará assim que o script for processado pelo navegador.
         iniciarDownload(urlParaBaixar, nomeParaSalvar);
